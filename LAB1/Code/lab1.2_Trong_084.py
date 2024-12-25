@@ -14,7 +14,7 @@ class JSONReader:
 
 
 # Sử dụng lớp JSONReader
-path = 'D:\\BT_LAB\\LAB1\\DATA\\users.json'
+path = 'D:\\42_Trong_DHKL17A2_BT_LAB\\LAB1\\DATA\\users.json'
 reader = JSONReader(path)
 reader.read_json()
 reader.display_data()
