@@ -16,7 +16,7 @@ class XMLReader:
                 print(f"Product: {name}, Price: {price}, Quantity:{quantity}")
 
 # Sử dụng lớp XMLReader
-path='D:/BT_LAB/LAB1/DATA/products.xml'
+path='D:\\42_Trong_DHKL17A2_BT_LAB\\LAB1\\DATA\\products.xml'
 reader = XMLReader(path)
 reader.read_xml()
 reader.display_data()
